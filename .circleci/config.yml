@@ -26,7 +26,7 @@ jobs:
           - v1-dependencies-{{ checksum "requirements.txt" }}
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
-                  
+
       - run:
           name: install dependencies
           command: |
@@ -44,9 +44,12 @@ jobs:
           command: |
             . venv/bin/activate
             make test
-      # run lints!
+      # run lints     
+
       - run:
           name: run lint
           command: |
             . venv/bin/activate
-            docker run --rm -i hadolint/hadolint hadolint --ignore SC2102 - < Dockerfile
+            wget https://github.com/hadolint/hadolint/releases/download/v1.17.5/hadolint-Linux-x86_64
+            chmod +x hadolint-Linux-x86_64
+            hadolint-Linux-x86_64 Dockerfile
