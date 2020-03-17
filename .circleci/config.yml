@@ -52,4 +52,5 @@ jobs:
             . venv/bin/activate
             wget https://github.com/hadolint/hadolint/releases/download/v1.17.5/hadolint-Linux-x86_64
             chmod +x hadolint-Linux-x86_64
-            ./hadolint-Linux-x86_64 Dockerfile
+            mv hadolint-Linux-x86_64 /usr/local/bin/hadolint
+            make lint
