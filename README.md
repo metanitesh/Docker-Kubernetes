@@ -1,4 +1,4 @@
-[![<ORG_NAME>](https://circleci.com/github/metanitesh/Docker-Kubernetes.svg?style=svg)](https://app.circleci.com/pipelines/github/metanitesh/Docker-Kubernetes)
+[![<CircleCi>](https://circleci.com/gh/metanitesh/Docker-Kubernetes.svg?style=svg)](https://app.circleci.com/pipelines/github/metanitesh/Docker-Kubernetes)
 
 ## Project Overview
 
