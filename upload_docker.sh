@@ -5,11 +5,12 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=metanitesh/mlmicroservice
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
+docker push metanitesh/mlmicroservice
 # Push image to a docker repository
