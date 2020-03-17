@@ -19,6 +19,6 @@ kubectl get pods
 # List kubernetes pods
 
 # Step 4:
-kubectl get pods
+kubectl port-forward flaskskearlndemo 8000:80
 # Forward the container port to a host
 
