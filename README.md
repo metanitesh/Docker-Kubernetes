@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![<ORG_NAME>](https://circleci.com/github/metanitesh/Docker-Kubernetes.svg?style=svg)](https://app.circleci.com/pipelines/github/metanitesh/Docker-Kubernetes)
 
 ## Project Overview
 
